@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+     background: url("https://images.unsplash.com/photo-1489987707025-afc232f7ea0f") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.titulo {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+
+.menu {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+
+.bienvenida {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 450px;
+}
+
+.bienvenida h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+.bienvenida h3 {
+    margin-top: 15px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+
+.footer {
+    margin-top: 40px;
+    padding: 30px 0;
+}
+
+
+.footer-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.info {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    color: white;
+    width: 100%;
+    max-width: 280px;
+}
+
+.info h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.tabla-contacto {
+    width: 30%;
+    border-collapse: collapse;
+}
+
+
+.tabla-contacto td {
+    padding: 8px;
+}
+
+
+.tabla-contacto tr {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.tabla-contacto a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.tabla-contacto a:hover {
+    text-decoration: underline;
+}
+
+.header{
+    position: relative;
+}
+
+.buscador{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buscador input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
